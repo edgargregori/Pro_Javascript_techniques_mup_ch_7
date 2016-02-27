@@ -1,0 +1,13 @@
+{
+  "title": "7 JavaScript and Form Validation",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {},
+  "attr": {
+    "attachment": {
+      "contentType": "text/html",
+      "content": "to validate data on the client side, instead of having to endure a round trip to the server"
+    },
+    "style": {}
+  }
+}
