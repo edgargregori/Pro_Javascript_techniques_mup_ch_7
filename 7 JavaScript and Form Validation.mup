@@ -2,7 +2,39 @@
   "title": "7 JavaScript and Form Validation",
   "id": 1,
   "formatVersion": 2,
-  "ideas": {},
+  "ideas": {
+    "1": {
+      "title": "7.1 HTML and CSS Form Validation",
+      "id": 3,
+      "ideas": {
+        "1": {
+          "title": "new features, thanks to the hard work of the Web Hypertext Application Technology Working Group (WHATWG)",
+          "id": 4
+        },
+        "2": {
+          "title": "HTML5 more information in HTML5 Programmer’s Reference by Jonathan Reid (Apress, 2015)",
+          "id": 6
+        },
+        "3": {
+          "title": "Simple form validation has moved into HTML, without the need of any JavaScript whatsoever.",
+          "id": 7,
+          "ideas": {
+            "1": {
+              "title": "Simple validation",
+              "id": 8,
+              "attr": {
+                "attachment": {
+                  "contentType": "text/html",
+                  "content": "Listing 7-1. A Simple Form<br><br>&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&lt;head&gt;<br>&nbsp; &lt;title&gt;A basic form&lt;/title&gt;<br>&lt;/head&gt;<br>&lt;body&gt;<br>&lt;h2&gt;A basic form&lt;/h2&gt;<br><br>&lt;p&gt;Please provide your first and last names.&lt;/p&gt;<br><br>&lt;form&gt;<br>&nbsp; &lt;fieldset&gt;<br>&nbsp;&nbsp;&nbsp; &lt;label for=\"firstName\"&gt;First Name:&lt;/label&gt;&lt;br/&gt;<br>&nbsp;&nbsp;&nbsp; &lt;input id=\"firstName\" name=\"firstName\" type=\"text\" required/&gt;&lt;br/&gt;<br>&nbsp;&nbsp;&nbsp; &lt;label for=\"lastName\"&gt;Last Name:&lt;/label&gt;&lt;br/&gt;<br>&nbsp;&nbsp;&nbsp; &lt;input type=\"text\" name=\"lastName\" id=\"lastName\"/&gt;&lt;br/&gt;<br>&nbsp; &lt;/fieldset&gt;<br>&nbsp; &lt;input type=\"submit\" value=\"Submit the form\"/&gt; &lt;input type=\"reset\" value=\"Reset the form\"/&gt;<br>&lt;/form&gt;<br><br>&lt;/body&gt;"
+                },
+                "style": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "attr": {
     "attachment": {
       "contentType": "text/html",
