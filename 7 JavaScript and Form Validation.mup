@@ -31,6 +31,62 @@
               }
             }
           }
+        },
+        "4": {
+          "title": "Types of validation",
+          "id": 10,
+          "ideas": {
+            "1": {
+              "title": "pattern",
+              "id": 11,
+              "ideas": {
+                "1": {
+                  "title": "This attribute takes a regular expression as an argument",
+                  "id": 12
+                }
+              }
+            },
+            "2": {
+              "title": "step",
+              "id": 14,
+              "ideas": {
+                "1": {
+                  "title": "Forces the value to match a multiple of the specified step value ( range, number of one of the date-times )",
+                  "id": 22
+                }
+              }
+            },
+            "3": {
+              "title": "min / max",
+              "id": 23,
+              "ideas": {
+                "1": {
+                  "title": " Minimum or maximum values, appropriate to not only numbers but also date-times",
+                  "id": 24
+                }
+              }
+            },
+            "4": {
+              "title": "max-length",
+              "id": 25,
+              "ideas": {
+                "1": {
+                  "title": "Maximum length, in characters, of the data in the field (email, password, tel, search or url )",
+                  "id": 26
+                }
+              }
+            }
+          }
+        },
+        "5": {
+          "title": "CSS",
+          "id": 28,
+          "ideas": {
+            "1": {
+              "title": "an invalid state can be accessed via the :invalid pseudoclass",
+              "id": 29
+            }
+          }
         }
       }
     }
