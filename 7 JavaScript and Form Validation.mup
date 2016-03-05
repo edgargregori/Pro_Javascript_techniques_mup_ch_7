@@ -136,8 +136,101 @@
               }
             }
           }
+        },
+        "7": {
+          "title": "Validation & Users",
+          "id": 43,
+          "ideas": {
+            "1": {
+              "title": "API validation",
+              "id": 47,
+              "ideas": {
+                "1": {
+                  "title": "a) the form validation API means that we have automatic form validation at submission time",
+                  "id": 45,
+                  "ideas": {}
+                },
+                "2": {
+                  "title": "thanks to the checkValidity method",
+                  "id": 48,
+                  "attr": {
+                    "style": {}
+                  }
+                },
+                "3": {
+                  "title": "no facility for custom validations",
+                  "id": 50
+                }
+              }
+            }
+          }
+        },
+        "8": {
+          "title": "Validations Events",
+          "id": 52,
+          "ideas": {
+            "1": {
+              "title": "forms elements now throw an invalid event, in response to checkValidity",
+              "id": 53,
+              "ideas": {
+                "1": {
+                  "title": "The invalid event does not bubble. Forms do not have an invalid event themselves, despite the fact that forms can be invalid.",
+                  "id": 54,
+                  "ideas": {}
+                },
+                "2": {
+                  "title": "capture call to addEventListener on the emiting control",
+                  "id": 56
+                }
+              }
+            }
+          }
+        },
+        "9": {
+          "title": "Customizing validation",
+          "id": 59,
+          "ideas": {
+            "1": {
+              "title": "use the setCustomValidity function associated with the form control",
+              "id": 60
+            },
+            "2": {
+              "title": "Pass setCustomValidity a string as an argument, and that string will appear as the text of the popup",
+              "id": 61
+            },
+            "3": {
+              "title": "An alternative would be to use a polyfill",
+              "id": 62,
+              "attr": {
+                "attachment": {
+                  "contentType": "text/html",
+                  "content": "https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills"
+                },
+                "style": {}
+              },
+              "ideas": {}
+            }
+          }
+        },
+        "10": {
+          "title": "Preventing form validation",
+          "id": 65,
+          "ideas": {
+            "1": {
+              "title": "To turn off form validation behavior, add the novalidate attribute to the form element",
+              "id": 66
+            },
+            "2": {
+              "title": "You can prevent behavior per submit-button click by adding the formnovalidate attribute",
+              "id": 67
+            }
+          }
         }
       }
+    },
+    "-1": {
+      "title": "The API is not without problems. it lacks some critical customization capabilities, like allowing styling for error messages, or custom validation routines. There are small implementation differences between the major browsers that can be a bit of a pain to clean up after. Some official parts of the API (think the willValidate property) are not currently implemented and other parts (setCustomValidity) have crippling problems.",
+      "id": 68
     }
   },
   "attr": {
@@ -146,5 +239,6 @@
       "content": "to validate data on the client side, instead of having to endure a round trip to the server"
     },
     "style": {}
-  }
+  },
+  "links": []
 }
